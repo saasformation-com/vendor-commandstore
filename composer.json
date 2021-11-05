@@ -1,0 +1,22 @@
+{
+  "name": "saasformation/vendor-commandstore",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SaaSFormation\\Vendor\\CommandStore\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "SaaSFormation",
+      "email": "info@saasformation.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "ext-pdo": "*",
+    "stratdes/vo": "^2.0.0.x-dev",
+    "saasformation/vendor-commandbus": "dev-master"
+  }
+}
